@@ -5,5 +5,6 @@ public class Test {
 		DNConsumer consumer = new DNConsumerImpl();
 		consumer.init();
 		consumer.getMessage("DN-kl-queue");
+		//master
 	}
 }
